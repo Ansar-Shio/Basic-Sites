@@ -2,26 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms </title>
+    <title>Forms</title>
 </head>
 <body>
-    <div>
-        <h2>Ansar Site Form</h2>
-        <div>
-            <h3>form</h3>
-            <div>
-                <form action="3_basic-site.html" method="get">
-                    <div>
-                        <label for="">E-Mail</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <label for=""></label>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+
+    <h2 align="center">Ansar Site Form</h2>
+    <hr width="40%">
+
+    <form action="3_basic-site.html" method="get" align="center">
+
+        <table 
+            align="center" 
+            cellpadding="15" 
+            border="2" 
+            width="400"
+        >
+            <tr>
+                <th colspan="2" align="center">
+                    Form
+                </th>
+            </tr>
+
+            <tr>
+                <td align="right">E-Mail:</td>
+                <td>
+                    <input type="email" required size="25" placeholder="example@email.com">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">Username:</td>
+                <td>
+                    <input type="text" required size="25" placeholder="Enter username">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">Password:</td>
+                <td>
+                    <input type="password" required size="25" placeholder="Enter password">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Submit</button>
+                    &nbsp;&nbsp;
+                    <button type="reset">Clear</button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
 </body>
 </html>
